@@ -11,7 +11,7 @@ var handleRequest = http.createServer(function(request, response) {
             respone.write('Whoops! File not found!');
         } else {
             response.write(data);
-        }
+        } 
         response.end();
     });
 }).listen(8000);
