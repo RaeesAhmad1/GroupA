@@ -17,4 +17,4 @@ var url='mongodb://localhost:27017/cms_db';
 mongoclient.connect(url,function(err,db){
 console.log('DB Connected');
 db.close();
-});
+}); 
